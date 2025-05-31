@@ -1,0 +1,16 @@
+<header class="">
+  <h1>
+    <a class="" routerLink="/entries">
+      Записи пользователя: <br /><span style="color: burlywood">{{
+        user?.email
+      }}</span></a
+    >
+    <span style="padding-left: 1vw"
+      ><a routerLink="/entries/new" class="new-entries"> ➕ </a></span
+    >
+  </h1>
+  <div>
+    <button type="button" class="" (click)="logOut()">ВЫЙТИ</button>
+  </div>
+</header>
+<router-outlet />

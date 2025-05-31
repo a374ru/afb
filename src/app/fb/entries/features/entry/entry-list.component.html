@@ -1,0 +1,5 @@
+@if(entryService.loading()) {
+<div class="table-row">
+<h2>Loading...</h2>
+</div>
+} @else { <app-table [entries]="entryService.getEntries()" /> }

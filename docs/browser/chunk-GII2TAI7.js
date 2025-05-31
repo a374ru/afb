@@ -1,0 +1,1 @@
+import"./chunk-ACKELEN3.js";var o=[{path:"",loadComponent:()=>import("./chunk-HQF6CC2M.js")},{path:"new",loadComponent:()=>import("./chunk-RJRITZCB.js")},{path:"edit/:id",loadComponent:()=>import("./chunk-RJRITZCB.js")}];export{o as default};

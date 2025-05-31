@@ -1,0 +1,17 @@
+<div class="add-entries">
+  <form class="" [formGroup]="form" (ngSubmit)="submit()">
+    <div>
+      <label for="content" class=""></label>
+      <textarea cols="44" rows="12" type="text" name="content" id="content" class="" formControlName="content"></textarea>
+    </div>
+    <br>
+    <div>
+      <label class="">
+        <input type="checkbox" value="" class="" formControlName="marker" />
+        <span class=""> Ангел-хранитель</span>
+      </label>
+    </div>
+    <br>
+    <button type="submit" [disabled]="form.invalid || loading()" class=""> {{ loading() ? "Сохраняем..." : "Готово" }} </button>
+  </form>
+</div>
