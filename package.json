@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
-    "start": "firebase emulators:exec --project=afb --ui --import src/local-data-firebase 'ng s -o'",
+    "start": "ng s",
+    "fb": "firebase emulators:start",
+    "fbdata": "firebase emulators:start --import src/local-data-firebase",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
